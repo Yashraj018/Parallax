@@ -1,0 +1,66 @@
+body, html{
+    height:100%;
+    margin:0;
+    font-size:16px;
+    font-weight:400;
+    color:grey;
+  }
+  
+  .one, .two, .three{
+    position:relative;
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+  }
+  
+  .one{
+    background-image:url('pic1.jfif');
+    min-height:100%;
+  }
+  
+  .two{
+    background-image:url('pic2.jfif');
+    min-height:400px;
+  }
+  
+  .three{
+    background-image:url('pic3.jfif');
+    min-height:400px;
+  }
+
+  
+  .firstSection{
+    text-align:center;
+    padding:40px ;
+    background-color:white;
+    color:rgb(41, 51, 94);
+  }
+  
+  .secondSection{
+    text-align:center;
+    padding:40px ;
+    background-color:rgb(57, 64, 68);
+    color:rgb(255, 255, 255);
+  }
+  
+  .content{
+    position:absolute;
+    top:50%;
+    width:100%;
+    text-align:center;
+    color: grey;
+    font: size 25px;
+  }
+  
+  .content .border{
+    background-color:rgb(31, 31, 31);
+    color:white;
+    padding:20px;
+  }
+  
+  .content .border.trans{
+    background-color:transparent;
+  }
+
+  
